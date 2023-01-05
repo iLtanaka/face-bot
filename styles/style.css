@@ -304,7 +304,8 @@ footer {
         padding-top: 52px;
     }
     .info-about-bot__content {
-        display: block;
+        display: grid;
+        justify-content: center;
     }
     .info-about-bot__text {
         font-size: 24px;
@@ -320,6 +321,7 @@ footer {
     }
     .example__content {
         display: grid;
+        justify-content: center;
     }
     .example__img_arrow {
         transform: rotate(90deg);
