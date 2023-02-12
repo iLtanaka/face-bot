@@ -1,124 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="image/x-icon" href="images/logot.ico" rel="shortcut icon">
-    <link type="Image/x-icon" href="images/logot.ico" rel="icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="api-styles/style.css">
-    <title>Face bot API</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="image/x-icon" href="images/logot.ico" rel="shortcut icon">
+	<link type="Image/x-icon" href="images/logot.ico" rel="icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="api-styles/style.css">
+	<title>Face bot API</title>
 </head>
 
 <body>
-    <header>
-        <div class="wrapper">
-            <div class="header__content">
-                <div class="header__menu menu">
-                    <div class="menu__icon">
-                        <span class="menu__icon_span"></span>
-                        <span class="menu__icon_span"></span>
-                        <span class="menu__icon_span"></span>
-                    </div>
-                    <nav class="menu__body">
-                        <ul class="menu__list">
-                            <li class='menu__item'><a href="/github" class="menu__link">GITHUB</a></li>
-                            <li class='menu__item'><a href="/telegram" class="menu__link">TELEGRAM</a></li>
-                            <li class='menu__item'><a href="/vk" class="menu__link">VKONTAKTE</a></li>
-                        </ul>
-                        <img src="images/egg.png" alt="" class="menu__egg">
-                    </nav>
-                </div>
-                <h1 class="logo"><a href="/">@FACEBOT</a></h1>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="our-api">
-            <div class="wrapper">
-                <div class="our-api__content">
-                    <div class="our-api__text">
-                        <h1>
-                            <span>НАШЕ</span> API
-                        </h1>
-                        <p>Lorem ipsum dolor sit amet,<br>
-                            consectetur adipiscing elit.<br>
-                            Nam non hendrerit nisi.<br>
-                            Sed lacinia, dolor.</p>
-                    </div>
-                    <img src="images/proc.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="links">
-            <div class="wrapper">
-                <div class="links__content">
-                    <div class="links__link">
-                        <h1>1</h1>
-                        <a href="/api/recognition">Face recognition</a>
-                        <p>POST запрос на этот адрес, вернёт специальный ключ (см. <a href="#link1">продолжение тут</a>)<br>
-                            В поле data необходимо передать JSON с полем "image"</p>
-                    </div>
-                    <div class="links__link">
-                        <h1>2</h1>
-                        <a href="/api/text">Text recognition</a>
-                        <p>POST запрос на этот адрес вернёт текст на фото<br>
-                            В поле data необходимо передать JSON с полем "image"</p>
-                    </div>
-                    <div class="links__link">
-                        <h1>3</h1>
-                        <a href="/api/all">All methods</a>
-                        <p>GET запрос вернёт все методы api и ссылки на них</p>
-                    </div>
-                    <div class="links__link">
-                        <h1>4</h1>
-                        <a href="/api/open">Open source</a>
-                        <p>GET запрос на этот адремс вернёт исходный код сервера</p>
-                    </div>
-                    <div class="links__link">
-                        <h1>5</h1>
-                        <a href="/api/links">All links</a>
-                        <p>GET запрос на этот адрес вернёт адреса всех методов и<br>
-                            то какой http метод к ним необходимо использовать</p>
-                    </div>
-                    <div class="links__link">
-                        <h1>6</h1>
-                        <a href="/api/recognition/put" name="link1">Get photo</a>
-                        <p>PUT запрос на этот адрес вернёт обрезанное фото и ваш ключ<br>
-                            В поле data необходимо передать JSON с полем "key" (см. <a href="#link2">продолжение тут</a>)</p>
-                    </div>
-                    <div class="links__link">
-                        <h1>7</h1>
-                        <a href="/api/recognition/delete" name="link2">Close port</a>
-                        <p>DELETE запрос на этот адрес закроет соединение с пользователем<br>
-                            В поле data необходимо передать JSON с полем "key"</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <div class="wrapper">
-            <div class="footer__content">
-                <p>Изображение от<br>
-                    cookie_studio на Freepik
-                </p>
-                <div class="footer__center">
-                    <a href="/">@FACEBOT</a>
-                    <p>@YAKOVSAVA все права защищены</p>
-                </div>
-                <p>Сайт, а так же,<br>
-                    исходный код всех<br>
-                    страниц находиться<br>
-                    под защитой лицензии<br>
-                    GNU GPL v2</p>
-            </div>
-        </div>
-    </footer>
-    <script src="scripts/script.js"></script>
+	<header>
+		<div class="wrapper">
+			<div class="header__content">
+				<div class="header__menu menu">
+					<div class="menu__icon">
+						<span class="menu__icon_span"></span>
+						<span class="menu__icon_span"></span>
+						<span class="menu__icon_span"></span>
+					</div>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class='menu__item'><a href="/github" class="menu__link">GITHUB</a></li>
+							<li class='menu__item'><a href="/telegram" class="menu__link">TELEGRAM</a></li>
+							<li class='menu__item'><a href="/vk" class="menu__link">VKONTAKTE</a></li>
+						</ul>
+						<img src="images/egg.png" alt="" class="menu__egg">
+					</nav>
+				</div>
+				<h1 class="logo"><a href="/">@FACEBOT</a></h1>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="our-api">
+			<div class="wrapper">
+				<div class="our-api__content">
+					<div class="our-api__text">
+						<h1>
+							<span>НАШЕ</span> API
+						</h1>
+						<p>С помощью нашего API вы сможете<br>
+							Интегрировать две нейросети в свои проекты!</p>
+					</div>
+					<img src="images/proc.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="links">
+			<div class="wrapper">
+				<div class="links__content">
+					<div class="links__link">
+						<h1>1</h1>
+						<a href="/api/recognition">Face recognition</a>
+						<p>POST запрос на этот адрес вернёт фото где обрезано лицо человека.<br>
+							Требует поле "photo" содержащее байты и "token" содержащее ваш API токен</p>
+					</div>
+					<div class="links__link">
+						<h1>2</h1>
+						<a href="/api/text">Text recognition</a>
+						<p>POST запрос на этот адрес вернёт текст на фото<br>
+							Требует поле "photo" содержащее байты и "token" содержащее ваш API токен</p>
+					</div>
+					<div class="links__link">
+						<h1>3</h1>
+						<a href="/api/all">All methods</a>
+						<p>GET запрос вернёт все методы api и ссылки на них</p>
+					</div>
+					<div class="links__link">
+						<h1>4</h1>
+						<a href="/api/open">Open source</a>
+						<p>GET запрос на этот адремс вернёт исходный код сервера</p>
+					</div>
+					<div class="links__link">
+						<h1>5</h1>
+						<a href="/api/links">All links</a>
+						<p>GET запрос на этот адрес вернёт адреса всех методов и<br>
+							то какой http метод к ним необходимо использовать</p>
+					</div>
+					<div class="links__link">
+						<h1>6</h1>
+						<a href="/api/balance" name="link1">Get photo</a>
+						<p>POST запрос на этот адрес вернёт информацию оп ользователе<br>
+							Требует поле "photo" содержащее байты и "token" содержащее ваш API токен</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="wrapper">
+			<div class="footer__content">
+				<p>Изображение от<br>
+					cookie_studio на Freepik
+				</p>
+				<div class="footer__center">
+					<a href="/">@FACEBOT</a>
+					<p>@YAKOVSAVA все права защищены</p>
+				</div>
+				<p>Сайт, а так же,<br>
+					исходный код всех<br>
+					страниц находиться<br>
+					под защитой лицензии MIT</p>
+			</div>
+		</div>
+	</footer>
+	<script src="scripts/script.js"></script>
 </body>
 
 </html>
