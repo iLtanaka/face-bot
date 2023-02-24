@@ -56,7 +56,7 @@
 				<div class="links__content">
 					<div class="links__link">
 						<h1>1</h1>
-						<a href="/api/recognition">Face recognition</a>
+						<a href="/api/recognition" name="link1">Face recognition</a>
 						<p>POST запрос на этот адрес вернёт фото где обрезано лицо человека.<br>
 							Требует поле "photo" содержащее байты и "token" содержащее ваш API токен</p>
 					</div>
@@ -84,9 +84,15 @@
 					</div>
 					<div class="links__link">
 						<h1>6</h1>
-						<a href="/api/balance" name="link1">Get photo</a>
-						<p>POST запрос на этот адрес вернёт информацию оп ользователе<br>
+						<a href="/api/balance">Get balance</a>
+						<p>POST запрос на этот адрес вернёт информацию о пользователе<br>
 							Требует поле "photo" содержащее байты и "token" содержащее ваш API токен</p>
+					</div>
+					<div class="links__link">
+						<h1>7</h1>
+						<a href="/api/getphoto?name=name">Get photo</a>
+						<p>GET запрос на этот адрес вернёт обрезанную
+							Фотографию после распознования<br>Правильный синтаксис ссылки:<br>(<a href="#link1">/api/getphoto?name={имя фото возвращённое из метода №1}</a>)</p>
 					</div>
 				</div>
 			</div>
